@@ -30,7 +30,7 @@ export const Cards = () => {
         <h2>
           Utility Net Faucet, Replace receiverId funds account <span>-&gt;</span>
         </h2>
-        <p>curl -X POST -H "Content-Type: application/json" -d '{"amount":"10000000000000000000000000", "receiverId":"67c7616cb8472180c19975f04e9b320d6f07d197d65b137dcffc40e7d25df6de", "contractId":"4e0375672ec30f2efe3a6c5a14ff81d37f1271c439501eac2fb445df262b2c32"}' https://unc-faucet.xyz666.org/api/faucet/tokens </p>
+        <p>curl -X POST -H "Content-Type: application/json" -d '{{"amount":"10000000000000000000000000", "receiverId":"67c7616cb8472180c19975f04e9b320d6f07d197d65b137dcffc40e7d25df6de", "contractId":"4e0375672ec30f2efe3a6c5a14ff81d37f1271c439501eac2fb445df262b2c32"}}' https://unc-faucet.xyz666.org/api/faucet/tokens </p>
       </Link>
     </div>
   );
